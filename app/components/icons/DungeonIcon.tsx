@@ -1,0 +1,16 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const SvgDungeonIcon = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        {...props}
+    >
+        <path
+            fill="currentColor"
+            d="M11 2H2v20h20V4h-2v16H4V4h7v2H6v12h12V8h-2v8H8V8h3v2h-1v4h4v-4h-1V2z"
+        />
+    </svg>
+)
+export default SvgDungeonIcon

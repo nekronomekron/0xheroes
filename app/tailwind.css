@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Silkscreen';
+    src: url('./fonts/Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Silkscreen';
+    font-weight: bold;
+    src: url('./fonts/Silkscreen-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./fonts/Minecraft.ttf');
+}
+
+@font-face {
+    font-family: 'ThemeVCK';
+    src: url('./fonts/themevck-text.ttf');
+}
+
+.mdxeditor {
+    background-color: white;
+}
+
+.prose {
+    font-family: 'ThemeVCK', sans-serif;
+    max-width: 100%;
+}
+
+.prose strong {
+    font-weight: 600;
+}
+
+div[contenteditable~='false'] > div > div[class*='_codeMirrorToolbar'] {
+    display: none !important;
+}
+
+.main-background {
+    background: url('/images/background/wallpaper.png');
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}

@@ -1,0 +1,16 @@
+import * as React from 'react'
+import type { SVGProps } from 'react'
+const SvgWalletIcon = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        {...props}
+    >
+        <path
+            fill="currentColor"
+            d="M18 3H2v18h18v-4h2V7h-2V3zm0 14v2H4V5h14v2h-8v10zm2-2h-8V9h8zm-4-4h-2v2h2z"
+        />
+    </svg>
+)
+export default SvgWalletIcon

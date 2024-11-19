@@ -1,5 +1,27 @@
 node_modules
 
+.secret
+
 /.cache
 /build
 .env
+
+node_modules
+.env
+
+ignition/deployments
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+package-lock.json
+
+/assets/*.json
