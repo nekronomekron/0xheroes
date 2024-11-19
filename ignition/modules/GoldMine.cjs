@@ -1,6 +1,6 @@
 const { buildModule } = require('@nomicfoundation/hardhat-ignition/modules')
 
-const Gold = require('./OxGold.cjs')
+const Gold = require('./Gold.cjs')
 
 module.exports = buildModule('GoldMine', (m) => {
     const { token } = m.useModule(Gold)

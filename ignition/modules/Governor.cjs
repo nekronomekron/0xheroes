@@ -1,7 +1,7 @@
 const { buildModule } = require('@nomicfoundation/hardhat-ignition/modules')
 
-const Gold = require('./OxGold.cjs')
-const Hero = require('./OxHero.cjs')
+const Gold = require('./Gold.cjs')
+const Hero = require('./Hero.cjs')
 
 const { daoSettings } = require('../../heroes.config.cjs')
 
